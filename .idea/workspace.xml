@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7186b5ac-84c4-4cd3-b6a9-f3669b1a11e0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1hSF2apX2QK7444g3aE8wDd9Ny7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_project\springcloudalibaba2020\cloud-alibaba-config-nacos-client3377\src\main\resources" />
+      <recent name="D:\idea_project\springcloudalibaba2020\cloud-alibaba-order9001\src\main\resources" />
+      <recent name="D:\idea_project\springcloudalibaba2020\cloud-alibaba-payment8001\src\main\resources\mapper" />
+      <recent name="D:\idea_project\springcloudalibaba2020\cloud-alibaba-payment8002\src\main\resources\mapper" />
+      <recent name="D:\idea_project\springcloudalibaba2020\cloud-alibaba-payment8002\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NacosConfigMain3377">
+    <configuration name="NacosConfigMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-config-nacos-client3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.cloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.alibaba.NacosConfigMain3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-order9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.cloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.alibaba.OrderMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Payment8001Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.cloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloud.alibaba.Payment8001Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Payment8002Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-payment8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atgugui.cloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atgugui.cloud.alibaba.Payment8002Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.NacosConfigMain3377" />
+      <item itemvalue="Spring Boot.Payment8001Main" />
+      <item itemvalue="Spring Boot.OrderMain9001" />
+      <item itemvalue="Spring Boot.Payment8002Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Payment8001Main" />
+        <item itemvalue="Spring Boot.OrderMain9001" />
+        <item itemvalue="Spring Boot.NacosConfigMain3377" />
+        <item itemvalue="Spring Boot.Payment8002Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7186b5ac-84c4-4cd3-b6a9-f3669b1a11e0" name="Default Changelist" comment="" />
+      <created>1599996379700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599996379700</updated>
+      <workItem from="1599996389989" duration="10116000" />
+      <workItem from="1600088418753" duration="1336000" />
+      <workItem from="1600180063504" duration="50055000" />
+      <workItem from="1600346040229" duration="1785000" />
+      <workItem from="1600565361767" duration="4418000" />
+      <workItem from="1600693151718" duration="5973000" />
+      <workItem from="1600781011133" duration="4238000" />
+      <workItem from="1600864219483" duration="3441000" />
+      <workItem from="1601113724115" duration="8369000" />
+      <workItem from="1601210746649" duration="6313000" />
+      <workItem from="1601299329099" duration="2291000" />
+      <workItem from="1601303494168" duration="3023000" />
+      <workItem from="1601469925061" duration="738000" />
+      <workItem from="1601544317935" duration="6107000" />
+      <workItem from="1601860133028" duration="631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1600004191333">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1600004191333" />
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601562754136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601562754136" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1601131093010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601131093010" />
+    <state x="282" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601211547195">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="282" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1601211547195" />
+    <state width="1209" height="400" key="GridCell.Tab.0.bottom" timestamp="1601567635420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601567635420" />
+    <state width="1209" height="400" key="GridCell.Tab.0.center" timestamp="1601567635420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601567635420" />
+    <state width="1209" height="400" key="GridCell.Tab.0.left" timestamp="1601567635420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601567635420" />
+    <state width="1209" height="400" key="GridCell.Tab.0.right" timestamp="1601567635420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601567635420" />
+    <state width="1209" height="400" key="GridCell.Tab.1.bottom" timestamp="1601567635421">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601567635421" />
+    <state width="1209" height="400" key="GridCell.Tab.1.center" timestamp="1601567635420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601567635420" />
+    <state width="1209" height="400" key="GridCell.Tab.1.left" timestamp="1601567635420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601567635420" />
+    <state width="1209" height="400" key="GridCell.Tab.1.right" timestamp="1601567635420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601567635420" />
+    <state width="1209" height="400" key="GridCell.Tab.2.bottom" timestamp="1601567635421">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601567635421" />
+    <state width="1209" height="400" key="GridCell.Tab.2.center" timestamp="1601567635421">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1601567635421" />
+    <state width="1209" height="400" key="GridCell.Tab.2.left" timestamp="1601567635421">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1601567635421" />
+    <state width="1209" height="400" key="GridCell.Tab.2.right" timestamp="1601567635421">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1209" height="400" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1601567635421" />
+    <state x="245" y="144" key="new project wizard" timestamp="1600005377781">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="245" y="144" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600005377781" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600786097053">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600786097053" />
+  </component>
+</project>

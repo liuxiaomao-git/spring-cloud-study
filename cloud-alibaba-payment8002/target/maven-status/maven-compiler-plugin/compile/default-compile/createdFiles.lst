@@ -1,0 +1,5 @@
+com\atgugui\cloud\alibaba\Payment8002Main.class
+com\atgugui\cloud\alibaba\service\PaymentService.class
+com\atgugui\cloud\alibaba\mapper\PaymentMapper.class
+com\atgugui\cloud\alibaba\controller\PaymentController.class
+com\atgugui\cloud\alibaba\service\impl\PaymentServiceImpl.class
