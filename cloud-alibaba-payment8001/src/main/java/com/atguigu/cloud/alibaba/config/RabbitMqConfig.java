@@ -2,20 +2,15 @@ package com.atguigu.cloud.alibaba.config;
 
 import com.atguigu.cloud.alibaba.constant.RabbitMqConstant;
 import com.atguigu.cloud.alibaba.enu.RabbitMqEnm;
-import lombok.val;
-import org.springframework.amqp.core.*;
+import org.springframework.amqp.core.Binding;
+import org.springframework.amqp.core.BindingBuilder;
+import org.springframework.amqp.core.DirectExchange;
+import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
-import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.rabbit.transaction.RabbitTransactionManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.lang.Nullable;
-import org.springframework.stereotype.Controller;
-import org.springframework.transaction.support.TransactionTemplate;
-
-import javax.annotation.PostConstruct;
 
 @Configuration
 public class RabbitMqConfig{
@@ -41,17 +36,6 @@ public class RabbitMqConfig{
     Binding directBinding(){
         return BindingBuilder.bind(directQueue()).to(directExchange()).with(RabbitMqConstant.ROUTING_KEY_ONE);
     }
-//    @Bean
-//    CachingConnectionFactory cachingConnectionFactory(){
-//        CachingConnectionFactory cachingConnectionFactory = new CachingConnectionFactory();
-//        cachingConnectionFactory.setHost("192.168.15.100");
-//        cachingConnectionFactory.setPort(5672);
-//        cachingConnectionFactory.setUsername("guest");
-//        cachingConnectionFactory.setPassword("guest");
-//
-//        cachingConnectionFactory.setCacheMode(CachingConnectionFactory.CacheMode.CHANNEL);
-//        return cachingConnectionFactory;
-//    }
 
 
 
@@ -59,6 +43,7 @@ public class RabbitMqConfig{
     RabbitTemplate rabbitTemplate(){
         RabbitTemplate rabbitTemplate = new RabbitTemplate(cachingConnectionFactory);
         rabbitTemplate.setConfirmCallback((correlationData, ack , cause) -> {
+            assert correlationData != null;
             String id = correlationData.getId();
             if(ack){
                 System.out.println(id+"消息发送成功！");
